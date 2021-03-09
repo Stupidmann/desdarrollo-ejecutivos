@@ -1,0 +1,25 @@
+{
+    "data": [
+        {
+            "name": "Pepe",
+            "cargo": "Comercial",
+            "mail": "pepe@comercial.com",
+            "whatsapp": "341564545",
+            "tel": "4535656"
+        },
+        {
+            "name": "Andres",
+            "cargo": "Ventas",
+            "mail": "andres@ventas.com",
+            "whatsapp": "341871245",
+            "tel": "6542154"
+        },
+        {
+            "name": "Miguel",
+            "cargo": "Cuentas",
+            "mail": "miguel@cuentas.com",
+            "whatsapp": "34124513",
+            "tel": "4581246"
+        }
+    ]
+}

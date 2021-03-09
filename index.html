@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>20 de junio</title>
+        <link rel="stylesheet" href="./styles.css"></link>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+    </head>
+
+    <body>
+        <div id="general-conteiner" >
+            <div id="title-header" class="center title-header align-items">
+                <span class="iconify fs-50" data-icon="clarity:group-line" data-inline="false"></span>
+                <div class="font-25"><b>Ejecutivos</b> de cuenta</div>
+            </div>
+            <div id="content" class="content h-100">
+                <div id="executives">
+                    <div class="center">
+                        <div class="font-25">Bienvenido</div>
+                        <p class="font-18">¿En que área necesitas ayuda?</p>
+                    </div>
+                    <div class="center">
+                        <button id="comertial-btn" class="executive-btn comertial-btn comertial-text-color">Comercial</button>
+                        <button id="telemarket-btn" class="executive-btn telemarket-btn telemarket-text-color">Venta telefonica</button>
+                        <button id="account-manager-btn" class="executive-btn account-manager-btn account-manager-text-color">Cuenta corriente</button>
+                    </div>
+                </div>
+                <div id="excutive-data" class="h-100" hidden>
+                    <div class="excutive-data h-100">
+                        <div class="h-50">
+                            <div class="h-100 center-items align-items">
+                                <span class="iconify fs-50 h-50" data-icon="akar-icons:person" data-inline="false"></span>
+                                <div id="exec-data-name" class="center font-18"></div>
+                            </div>
+                        </div>
+                        <div class="h-50 grey-background">
+                            <div class="h-100">
+                                <div id="exec-data-mail" class="exec-data-container"></div>
+                                <div id="exec-data-wsp" class="exec-data-container"></div>
+                                <div id="exec-data-tel" class="exec-data-container"></div>
+                                <div class="exec-data-container center">
+                                    <button class="go-back-btn" id="go-back" data-current-btn >Volver</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+        <script src="./index.js"></script>
+    </body>
+
+</html>
